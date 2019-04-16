@@ -4,18 +4,18 @@
     "version": "0.1",
     "description": "Removes the annoying ads and the upgrade to pro message in TradingView",
     "browser_action": {
-	"default_icon": {
-            "512": "icon-512.png"
-      	}
+	    "default_icon": {
+        "128": "icon-128.png"
+      }
     },
     "content_scripts": [
-	{
-	    "matches": [ "*://*.tradingview.com/*" ],
-      	    "js": [ "index.js" ],
-	    "run_at": "document_start"
-    	} 
+	    {
+	      "matches": [ "*://*.tradingview.com/*" ],
+      	"js": [ "index.js" ],
+	      "run_at": "document_start"
+    	}
     ],
     "icons": {
-	"512": "icon-512.png"
+	    "128": "icon-128.png"
     }
 }
