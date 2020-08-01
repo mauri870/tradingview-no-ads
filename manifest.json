@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "TradingView NoAds",
-    "version": "0.1",
+    "version": "0.2",
     "description": "Removes the annoying ads and the upgrade to pro message in TradingView",
     "browser_action": {
 	    "default_icon": {
