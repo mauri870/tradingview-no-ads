@@ -1,7 +1,7 @@
 (function() {
   'use strict';
   const checkAd = setInterval(() => {
-    const adBox = document.querySelector("[class^='toast-positioning-wrapper-']")
+    const adBox = document.querySelector("[data-role^='toast-container']")
 
     if (adBox) {
       adBox.remove();
