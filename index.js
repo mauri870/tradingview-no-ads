@@ -1,13 +1,11 @@
-(function() {
-  'use strict';
-  const checkAd = setInterval(() => {
-    const adBox = document.querySelector("[data-role^='toast-container']")
+(function () {
+  "use strict";
+  setInterval(() => {
+    const adBox = document.querySelector('[id="charting-ad"]');
 
     if (adBox) {
-      adBox.remove();
-      console.log('ad removed.');
-    } else {
-      console.log('no ad present.');
+      adBox.closest('[role="log"]')?.remove();
+      console.log("ad removed.");
     }
-  }, 5000);
+  }, 100);
 })();
